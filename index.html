@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tailwind.config.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="font-[Livvic]">
+    <header class="header bg-[#014E56]">
+        <nav class="flex justify-between items-center max-w-[1110px] mx-auto pt-[76px]">
+            <a href="#" class="cursor-pointer"><img src="images/myteam.png" alt="main logo"></a>
+            <ul class="header__ul flex gap-10 items-center">
+                <li><a href="#" class="text-white text-[18px]  hover:text-[#F67E7E]">home</a></li>
+                <li><a href="#" class="text-white text-[18px] hover:text-[#F67E7E]">about</a></li>
+                <button class="header__btn w-[143px] border-[2px] border-solid border-white rounded-full text-white p-[9px] hover:bg-[#F67E7E]">contact
+                    us</button>
+                    <img class="burger" src="images/Group 2.svg" alt="img">
+            </ul>
+        </nav>
+        <div class="header__abot flex justify-between mt-[164px] pb-[120px] max-w-[1110px] mx-auto md:mt-[112px]">
+            <h1 class="text-[64px] text-white font-bold md:mx-auto">About</h1>
+            <p class="header__text text-white text-[18px] max-w-[730px]">We help companies build dynamic teams made up of top global
+                talent. Using our network of passionate professionals we drive innovation and deliver incredible
+                outcomes. Talented, diverse teams shape the best products and experiences. We’ll bring those teams to
+                you.</p>
+        </div>
+    </header>
+    <section class="bg-[#004047] pb-[148px]">
+        <h2 class="hero__meet text-center text-[48px] pt-[71px] mb-[70px] text-white font-bold hover:text-[#F67E7E]">Meet the directors</h2>
+        <div class="hero__cards flex max-w-[1110px] mx-auto gap-[30px]">
+            <div class="card relative w-[30%] flex flex-col items-center gap-[30px] bg-[#012F34] hover:rounded-full cursor-pointer">
+                <img class="mt-[44px] mb-[20px]" src="images/Oval.png" alt="oval">
+                <h3 class="text-[#79C8C7] text-[18px]">Nikita Marks</h3>
+                <p class="pb-[58px] text-white text-[15px]">Founder & CEO</p>
+                <button><img class="hover:w-[65px] absolute mt-[-30px] ml-[-30px]" src="images/Group 13.png" alt="img"></button>
+            </div>
+
+            <div class="card relative w-[30%] flex flex-col items-center gap-[30px] bg-[#012F34] hover:rounded-full cursor-pointer">
+                <img class="mt-[44px] mb-[20px]" src="images/Oval (1).png" alt="oval">
+                <h3 class="text-[#79C8C7] text-[18px]">Cristian Duncan</h3>
+                <p class="pb-[58px] text-white text-[15px]">Co-founder & COO</p>
+                <button><img class="hover:w-[65px] absolute mt-[-30px] ml-[-30px]" src="images/Group 13.png" alt="img"></button>
+
+            </div>
+
+            <div class="card relative w-[30%] flex flex-col items-center gap-[30px] bg-[#012F34] hover:rounded-full cursor-pointer">
+                <img class="mt-[44px] mb-[20px]" src="images/Oval (2).png" alt="oval">
+                <h3 class="text-[#79C8C7] text-[18px]">Cruz Hamer</h3>
+                <p class="pb-[58px] text-white text-[15px]">Co-founder & CTO</p>
+                <button><img class="hover:w-[65px] absolute mt-[-30px] ml-[-30px]" src="images/Group 13.png" alt="img"></button>
+
+            </div>
+        </div>
+    </section>
+ 
+    <section class="logos bg-[#012F34] pb-[123px]">
+        <h2 class="text-center text-white text-[48px] font-bold pt-[113px] pb-[52px] hover:text-[#F67E7E]">Some of our clients</h2>
+        <div class="logos_our flex gap-[80px] w-[1110px] mx-auto">
+            <img class="w-[15%]" src="images/Object.png" alt="the verge">
+            <img class="w-[15%]" src="images/jakarta.png" alt="jakarta">
+            <img class="w-[15%]" src="images/Object (1).png" alt="the guardian">
+            <img class="w-[15%]" src="images/Object (2).png" alt="techrader">
+            <img class="w-[15%]" src="images/gadgets-now.png" alt="gatgets">
+        </div> 
+    </section>
+
+    <section class="pink py-[76px] flex justify-around items-center bg-[#F67E7E]">
+        <h2 class="text-[#012F34] text-[48px] font-bold">Ready to get started?</h2>
+        <button class="w-[143px] border-[2px] border-solid border-[#012F34] rounded-full text-[#012F34ff] p-[9px] hover:bg-[#004047] hover:text-white">contact us</button>
+    </section>
+
+    <footer class="bg-[#002529]">
+        <div class="footer max-w-[1110px] mx-auto flex items-center justify-between py-[48px]">
+            <a href="#"><img class="cursor-pointer" src="images/myteam.png" alt="mytem"></a>
+            <img class="cursor-pointer" src="images/Group 31.png" alt="footer logos">
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

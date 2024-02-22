@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Livvic", sans-serif;
+}
+
+.burger {
+    max-width: 20px;
+    min-height: 17px;
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .header__abot {
+        flex-direction: column;
+    }
+
+    .header__text {
+        max-width: 520px;
+        height: 140px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero__meet {
+        padding-top: 100px;
+    }
+
+    .hero__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        min-height: 253px;
+        margin-bottom: 67px;
+
+    }
+
+    .logos {
+        background: #004047;
+        padding-top: 221px;
+    }
+
+    .logos_our {
+        max-width: 689px;
+        gap: 49px;
+        margin-bottom: 100px;
+    }
+
+    .footer {
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    .header__abot {
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+    }
+
+    .header__ul li {
+        display: none;
+    }
+
+    .header {
+        padding: 24px;
+    }
+
+    .header__btn {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        max-width: 20px;
+        min-height: 17px;
+    }
+
+    .header__text {
+        max-width: 520px;
+        height: 140px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero__meet {
+        padding-top: 88px;
+        font-size: 32px;
+        margin-bottom: 48px;
+
+    }
+
+    .hero__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 122px;
+
+    }
+
+    .logos {
+        background:
+            #012F34;
+        flex-direction: column;
+        padding-top: 72px;
+    }
+
+    .logos h2{
+        font-size: 32px;
+    }
+
+    .logos_our {
+        flex-direction: column;
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+
+    .pink{
+        flex-direction: column;
+    }
+
+    .pink h2{
+        max-width: 327px;
+        min-height: 64px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 24px;
+        font-size: 32px;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
